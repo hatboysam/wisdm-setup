@@ -10,7 +10,7 @@ Install git with `sudo apt-get install git` and then grab this directory by doin
 Move in the directory you just created with `cd ~/wisdm-setup` then do the following:
 
 	# Install WISDM Dependencies
-        ./install_dependencies.sh
+	./install_dependencies.sh
 
 	# Checkout the WISDM Code
 	./checkout_wisdm.sh
@@ -28,5 +28,10 @@ Move in the directory you just created with `cd ~/wisdm-setup` then do the follo
 	# Start the WISDM Node	
 	./startwisdm <CHOSEN NODE NAME>
 
-## Make Sure It's All Woring
-Navigate to `ttp://realhub.org/dev/apps/terminal/?node=[YOUR-NODE-NAME]` and log in.		
+## Make Sure It's All Working
+Navigate to `http://realhub.org/dev/apps/terminal/?node=[YOUR-NODE-NAME]` and log in.		
+
+## Stopping a WISDM Node
+To stop the wisdmnode process, use the following command:
+
+	./stopwisdm.sh <WISDM NODE NAME>
