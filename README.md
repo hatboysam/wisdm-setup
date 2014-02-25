@@ -19,7 +19,7 @@ Move in the directory you just created with `cd ~/wisdm-setup` then do the follo
 	./compile_wisdm.sh
 
 	# Add WISDM to your path
-	echo 'PATH=$PATH:~/dev/wisdm/server/bin' >> ~/.profile
+	echo 'PATH=$PATH:~/dev/wisdm/server/bin:~/bin' >> ~/.profile
 	source ~/.profile
 
 	# Create a new WISDM Node
